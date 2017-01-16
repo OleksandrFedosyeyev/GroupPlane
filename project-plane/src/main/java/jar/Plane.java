@@ -10,7 +10,7 @@ public abstract class Plane {
     private int fuelConsumption;
     private int maxDistance;
   
-    private Plane() {
+     Plane() {
 
     }
 

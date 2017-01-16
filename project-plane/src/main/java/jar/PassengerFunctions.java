@@ -3,11 +3,12 @@ package jar;
 abstract class PassengerFunctions extends Plane implements PassengerFunctionsInterface {
 
     PassengerFunctions() {
+
     }
 
     int generateMaxDistance() {
         int fuelPerKm = 100;
-        return maxDistance = (getMaxFuelCapacity() / getFuelConsumption()) * fuelPerKm;
+        return (getMaxFuelCapacity() / getFuelConsumption()) * fuelPerKm;
     }
 
     public int fuelConsumption() {

@@ -7,30 +7,23 @@ import lombok.Getter;
 class PassengerAirplane extends PassengerFunctions {
     @Getter
     private static int maxPass;
-    private int maxLuggage;
+    private int id;
 
     PassengerAirplane(String name, int id) {
-        this.name = name;
+        super.setName(name);
         this.id = id;
-        maxPass = super.maxPass();
-        maxFuelCapacity = super.maxFuelCapacity();
-        this.fuelConsumption = fuelConsumption();
-        this.maxLuggage = maxPass * ONE_LUGGAGE;
-        this.maxDistance = generateMaxDistance();
+        this.maxPass = maxPass();
+        super.setMaxFuelCapacity(maxFuelCapacity());
+        super.setFuelConsumption(fuelConsumption());
+        super.setMaxDistance(generateMaxDistance());
     }
 
     @Override
     public String toString() {
-        return
-                "PassengerAirplane{ " +
-                        " id = " + id +
-                        ", name = " + name +
-                        ", maxFuelCapacity = " + maxFuelCapacity +
-                        ", maxFuelConsumption = " + fuelConsumption +
-                        ", maxPass=" + maxPass +
-                        ", maxLuggage= " + maxLuggage +
-                        ", maxDistance = " + maxDistance +
-                        '}';
+        return super.toString()+
+                "maxPass" + maxPass +
+                "id=" + id +
+                '}';
     }
 
 }
