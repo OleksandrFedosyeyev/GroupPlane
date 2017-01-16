@@ -9,7 +9,35 @@ public abstract class Plane {
     private int maxFuelCapacity;
     private int fuelConsumption;
     private int maxDistance;
+  
+    private Plane() {
 
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getMaxFuelCapacity() {
+        return maxFuelCapacity;
+    }
+
+    public void setMaxFuelCapacity(int maxFuelCapacity) {
+        this.maxFuelCapacity = maxFuelCapacity;
+    }
+
+    public int getMaxDistance() {
+        return maxDistance;
+    }
+
+    public void setMaxDistance(int maxDistance) {
+        this.maxDistance = maxDistance;
+    }
+  
     public int getFuelConsumption() {
         return fuelConsumption;
     }
