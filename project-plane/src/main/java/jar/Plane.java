@@ -1,15 +1,16 @@
 package jar;
 
 import java.util.Objects;
-
+import lombok.EqualsAndHashCode;
+@EqualsAndHashCode
 public abstract class Plane {
 
     private String name;
     private int maxFuelCapacity;
     private int fuelConsumption;
     private int maxDistance;
-
-    public Plane() {
+  
+    private Plane() {
 
     }
 
@@ -36,7 +37,7 @@ public abstract class Plane {
     public void setMaxDistance(int maxDistance) {
         this.maxDistance = maxDistance;
     }
-
+  
     public int getFuelConsumption() {
         return fuelConsumption;
     }
