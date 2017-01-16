@@ -9,9 +9,37 @@ public abstract class Plane {
     private int fuelConsumption;
     private int maxDistance;
 
-    public Plane(String name, int maxFuelCapacity,int maxDistance) {
+    public Plane() {
+
+    }
+
+    public Plane(String name, int maxFuelCapacity, int maxDistance) {
         this.name = name;
         this.maxFuelCapacity = maxFuelCapacity;
+        this.maxDistance = maxDistance;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getMaxFuelCapacity() {
+        return maxFuelCapacity;
+    }
+
+    public void setMaxFuelCapacity(int maxFuelCapacity) {
+        this.maxFuelCapacity = maxFuelCapacity;
+    }
+
+    public int getMaxDistance() {
+        return maxDistance;
+    }
+
+    public void setMaxDistance(int maxDistance) {
         this.maxDistance = maxDistance;
     }
 
