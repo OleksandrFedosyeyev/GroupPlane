@@ -2,14 +2,12 @@ package jar;
 
 public class Menu {
 
-    private static Util util = new Util();
-
     public static void menu() {
 
         boolean a = true;
         while (a) {
             System.out.println("Choose type of plane: 1-army, 2-airfreighter, 3-passenger");
-            int key = util.scanNumber();
+            int key = Util.scanNumber();
             switch (key) {
                 case 1:
                     army();
@@ -31,7 +29,7 @@ public class Menu {
 
     public static boolean exit() {
         System.out.println("Continue? n-exit, any other-continue");
-        String exit = util.scanner.nextLine();
+        String exit = Util.scanner.nextLine();
         return (exit.charAt(0) != 'n');
     }
 
@@ -42,11 +40,11 @@ public class Menu {
                 "\nY - YF-23, tank capacity-300 l, fuel consumption-1 l/km" +
                 "\nS - SY-9, tank capacity-800 l, fuel consumption-4 l/km" +
                 "\nP - PE-3, tank capacity-600 l, fuel consumption-3 l/km");
-        String choose = util.choosePlane();
+        String choose = Util.choosePlane();
         System.out.println("choose type of target: 1-9; 1-the easiest, 9-the hardest");
-        int target = util.scanNumber();
+        int target = Util.scanNumber();
         System.out.println("Enter distance to fly");
-        int distance = util.scanInt();
+        int distance = Util.scanInt();
         switch (choose) {
             case "L":
                 Army LA = new Army("LA-5", 500, 2, target, distance);
