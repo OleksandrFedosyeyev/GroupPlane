@@ -13,12 +13,6 @@ public abstract class Plane {
 
     }
 
-    public Plane(String name, int maxFuelCapacity, int maxDistance) {
-        this.name = name;
-        this.maxFuelCapacity = maxFuelCapacity;
-        this.maxDistance = maxDistance;
-    }
-
     public String getName() {
         return name;
     }

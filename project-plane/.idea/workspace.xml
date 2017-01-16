@@ -16,36 +16,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Plane.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Plane.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/jar/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="-493">
+              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1433#1434#0" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jar/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -125,10 +125,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/jar/Target.java" />
         <option value="$PROJECT_DIR$/src/main/java/jar/Armable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jar/Plane.java" />
         <option value="$PROJECT_DIR$/src/main/java/jar/DoArmy.java" />
         <option value="$PROJECT_DIR$/src/main/java/jar/Army.java" />
         <option value="$PROJECT_DIR$/src/main/java/jar/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jar/Plane.java" />
       </list>
     </option>
   </component>
@@ -648,12 +648,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484566971666</updated>
-      <workItem from="1484566977697" duration="5622000" />
+      <workItem from="1484566977697" duration="5717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5622000" />
+    <option name="totallyTimeSpent" value="5717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
@@ -737,41 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jar/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jar/Army.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jar/DoArmy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -794,6 +759,41 @@
         <state relative-caret-position="68">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jar/Army.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jar/Plane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
